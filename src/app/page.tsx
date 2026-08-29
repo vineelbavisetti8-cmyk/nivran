@@ -83,7 +83,7 @@ export default function Home() {
               </div>
 
               {/* LIVE METRICS CHIPS */}
-              <div className="mt-8 flex flex-wrap gap-4 text-xs">
+              <div className="mt-5 flex flex-wrap gap-3 text-xs">
                 <div className="bg-white/80 border border-line rounded-lg px-3.5 py-2 flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
                   <span className="text-muted">Live SLA Engine:</span>

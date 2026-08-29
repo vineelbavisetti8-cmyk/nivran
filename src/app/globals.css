@@ -85,7 +85,7 @@ button {
 
 /* TOPBAR - PERMANENTLY VISIBLE STICKY HEADER */
 .topbar {
-  height: 70px;
+  height: 62px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -168,7 +168,7 @@ button {
 .nav-mobile-overlay {
   position: fixed;
   inset: 0;
-  top: 70px;
+  top: 62px;
   background: rgba(17, 24, 39, 0.4);
   backdrop-filter: blur(4px);
   z-index: 49;
@@ -177,7 +177,7 @@ button {
 
 .nav-mobile-menu {
   position: fixed;
-  top: 70px;
+  top: 62px;
   left: 0;
   right: 0;
   background: #ffffff;
@@ -188,7 +188,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  max-height: calc(100vh - 70px);
+  max-height: calc(100vh - 62px);
   overflow-y: auto;
   animation: slideDown 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -313,7 +313,7 @@ button {
   letter-spacing: 0.1em;
   font-weight: 700;
   font-size: 11px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -322,7 +322,7 @@ button {
 
 /* HERO SECTION */
 .hero {
-  padding: clamp(40px, 6vw, 70px) max(5vw, 16px);
+  padding: clamp(20px, 2.5vw, 32px) max(5vw, 16px) clamp(28px, 3.5vw, 44px);
   position: relative;
   background: linear-gradient(180deg, rgba(232, 245, 239, 0.4) 0%, rgba(250, 249, 246, 0.8) 100%);
   border-bottom: 1px solid var(--line);
@@ -334,23 +334,23 @@ button {
   margin: auto;
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
-  gap: clamp(24px, 4vw, 48px);
-  align-items: center;
+  gap: clamp(20px, 3vw, 40px);
+  align-items: start;
 }
 
 .hero h1 {
-  font-size: clamp(32px, 5vw, 64px);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
-  margin: 0 0 18px;
+  font-size: clamp(28px, 4.2vw, 56px);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+  margin: 0 0 14px;
   font-weight: 700;
 }
 
 .hero p {
   color: var(--ink-secondary);
-  font-size: clamp(15px, 2vw, 17px);
-  line-height: 1.6;
-  margin: 0 0 28px;
+  font-size: clamp(14px, 1.8vw, 16px);
+  line-height: 1.55;
+  margin: 0 0 22px;
   max-width: 540px;
 }
 
@@ -365,7 +365,7 @@ button {
   background: #ffffff;
   border: 1px solid var(--line);
   border-radius: 20px;
-  padding: clamp(16px, 3vw, 24px);
+  padding: clamp(16px, 2.5vw, 22px);
   box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.07);
   position: relative;
   overflow: hidden;
